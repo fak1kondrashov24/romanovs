@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Xarrow, { Xwrapper } from 'react-xarrows'
 import './App.css';
-import romanovs from './romanovs1.json';
-import history from './history1.json';
+import romanovs from './romanovs.json';
+import history from './history.json';
 
 // function App() {
 //   return (
@@ -83,7 +83,7 @@ function Year({ year, setYear }) {
       yearChanged(parseInt(year) + 1);
     }
     else {
-      alert("Родословная представлена только с 1612 по 1801 гг. \nПередвиньте ползунок.")
+      alert("Родословная представлена только с 1612 по 1801 гг. \n Передвиньте ползунок.")
     }
   }
 
@@ -218,7 +218,7 @@ function Person({year, id, name, year_born, year_show, year_died, age_died, year
         <div className='image'></div>
         <div className='right'>
           <div className='extra'>
-            {(isKing === 'ruler') ? <img src='/images/crown.png'></img> : ''}
+            {(isKing === 'ruler') ? <div className='czar_icon'></div> : ''}
           </div>
           <div className='age'>
             <div className='age_number'>{age_number}</div>
