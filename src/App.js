@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div id='main'>
-      <Information year={year} />
+      <Information year={year} />it
       <Year setYear={setYear} year={year} />
       <Tree year={year} />
     </div>
