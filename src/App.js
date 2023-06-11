@@ -31,11 +31,11 @@ function App() {
 
   return (
     <div id='main'>
-      <Information year={year} />it
+      <Information year={year} />
       <Year setYear={setYear} year={year} />
       <Tree year={year} />
     </div>
-  );
+  )
 }
 
 const facts = (year) => {
@@ -48,17 +48,11 @@ const facts = (year) => {
 
 
 function Information({ year }) {  
-  let fact_year = 0;
-  let fact_info = '';
-  let fact_text = '';
-
   const fact = facts(year)
 
-  if (fact !== undefined) {
-    fact_year = fact.year;
-    fact_info = fact.info;
-    fact_text = fact.text;
-  }
+  let fact_year = fact.year;
+  let fact_info = fact.info;
+  let fact_text = fact.text;
 
   return (
     <div id='information'>
@@ -78,21 +72,23 @@ function Year({ year, setYear }) {
     yearChanged(event.target.value);
   }
 
-  const yearUp = (event) => {
-    if (year < 1801 && year >= 1612) {
-      yearChanged(parseInt(year) + 1);
-    }
-    else {
-      alert("Родословная представлена только с 1612 по 1801 гг. \n Передвиньте ползунок.")
+  const yearUp = () => {
+    if (year == 1801) {
+      alert("Родословная представлена только с 1612 по 1801 год")
+    } else if (year == 0) {
+      alert("Для старта визуализации передвиньте ползунок")
+    } else {
+      return( yearChanged(parseInt(year) + 1) )
     }
   }
 
-  const yearDown = (event) => {
-    if (year > 1612 && year <= 1801) {
-      yearChanged(parseInt(year) - 1);
-    }
-    else {
-      alert("Родословная представлена только с 1612 по 1801 гг. \nПередвиньте ползунок.")
+  const yearDown = () => {
+    if (year == 1612) {
+      alert("Родословная представлена только с 1612 по 1801 год")
+    } else if (year == 0) {
+      alert("Для старта визуализации передвиньте ползунок.")
+    } else {
+      yearChanged(parseInt(year) - 1)
     }
   }
 
@@ -100,17 +96,18 @@ function Year({ year, setYear }) {
     <div id="year_choose">
       <input type="range" id="year_range" onChange={yearChangeByRange} value={year} min="1612" max="1801" step="1"></input>
       <div id="year_click">
-        <button className="year_button" id="left" onClick = {yearDown}></button>
-        <div id="year">{year}</div>
-        <button className="year_button" id="rigth" onClick = {yearUp}></button>
+        <button className="year_button" id="year_down" onClick = {yearDown}></button>
+        <div id="year_text">{year}</div>
+        <button className="year_button" id="year_up" onClick = {yearUp}></button>
       </div>
     </div>
   )
 }
 
 
-function Tree({year, fact}) {
+function Tree({year}) {
   let romanovs_born = [];
+  let fact = facts(year);
   const scrollRef = useRef(null);
 
   useEffect(() => {
@@ -138,8 +135,9 @@ function Tree({year, fact}) {
 
 function Generation({year, fact, generation}) {
   
-  const create = (creation, person) => {
-    switch (creation) {
+  const create = (person) => {
+    switch (person.creation) {
+      default : return
       case 'left': return ( <Fake id = {person.id} position = {person.position + 60 - 5}/> )
       case 'right': return ( <Fake id = {person.id} position = {person.position - 10 - 5}/> )
       case 'child': return ( <Xarrow key = {'arrow_' + person.id} start = {'parents_id' + person.creator} end={'id' + person.id} startAnchor = 'bottom' endAnchor = 'top' color='gray' strokeWidth = {1} showHead={false}></Xarrow> )
@@ -148,8 +146,8 @@ function Generation({year, fact, generation}) {
   
   const born_romanovs = generation.map((person) => (
     <Xwrapper>
-      <Person fact = {fact} key = {'person' + person.id} year = {year} id = {person.id} name = {person.name} year_born = {person.year_born} year_show = {person.year_show} year_died = {person.year_died} age_died={person.age_died} year_start={person.year_start} year_finish={person.year_finish} ruler={person.ruler} position = {person.position} />
-      {create(person.creation, person)}
+      <Person fact = {fact} key = {'person' + person.id} year = {year} id = {person.id} name = {person.name} image = {person.image} year_born = {person.year_born} year_died = {person.year_died} age_died={person.age_died} year_start={person.year_start} year_finish={person.year_finish} ruler={person.ruler} position = {person.position} />
+      {create(person)}
       <div className='person-background' style={{left: person.position + 'px'}}></div>
     </Xwrapper>
   ))
@@ -163,17 +161,15 @@ function Fake({id, position}) {
   )
 }
 
-function Person({year, id, name, year_born, year_show, year_died, age_died, year_start, year_finish, ruler, position}) {
+function Person({year, id, name, image, year_born, year_died, age_died, year_start, year_finish, ruler, position}) {
   let age_number = 0;
   let isDead = '';
   let isKing = '';
-  let isFact = ''; 
+  let isTold = ''; 
 
   const fact = facts(year)
-  if (fact !== undefined) {
-    if (fact.persons.includes(id)) {
-      isFact = ' told'
-    }
+  if (fact.persons.includes(id)) {
+    isTold = ' told'
   }
 
   if (year >= year_died) {
@@ -212,13 +208,13 @@ function Person({year, id, name, year_born, year_show, year_died, age_died, year
 
 
   return (
-    <div className={'person' + isDead + isFact} id={'id' + id} style={{left: position + 'px'}}>
-      <div className='name'>{name}</div>
+    <div className={'person' + isDead + isTold} id={'id' + id} style={{left: position + 'px'}}>
+      <div className='name' dangerouslySetInnerHTML={{__html: name}} />
       <div className='based'>
-        <div className='image'></div>
+        <img className='image' src={require('./images/' + image + '.png')} />
         <div className='right'>
           <div className='extra'>
-            {(isKing === 'ruler') ? <div className='czar_icon'></div> : ''}
+            {(isKing === 'ruler') ? <img className='czar_icon' src={require("./images/crown.png")} /> : ''}
           </div>
           <div className='age'>
             <div className='age_number'>{age_number}</div>

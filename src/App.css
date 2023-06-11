@@ -46,13 +46,27 @@
   left: 0;
   position: fixed;
   z-index: 1;
-  /* border-top: solid 1px; */
   border-bottom: solid 1px;
 }
 
 #title {
   text-align: center;
+  font-size: 21px;
+  font-family: "Georgia";
+  font-style: italic;
+  margin-bottom: 5px;
 }
+
+#text {
+  text-align: justify;
+  font-family: "Inter";
+  line-height: 1.25;
+  font-size: 17px;
+  text-indent: 24px;
+  width: 1350px;
+  margin: auto;
+}
+
 
 #year_choose {
   background-color: white;
@@ -67,13 +81,9 @@
 
 #year_range {
   background-color: white;
-  color: red;
-  background: red;
   width: calc(100% - 20px);
   height: 25px;
   margin: 5px 10px 5px 10px;
-  /* writing-mode: tb-lr;
-  -webkit-appearance: slider-vertical; */
 }
 
 #year_click {
@@ -94,7 +104,7 @@
   padding: 0 0 0 0;
 }
 
-#year {
+#year_text {
   margin: 0 5px 0 5px;
   height: 35px;
   width: 65px;
@@ -105,25 +115,26 @@
 
 
 #tree {
+  background-color: #fffee9;
   position: absolute;
   left: 0;
-  top: 150px;
+  top: 160px;
   width: calc(100% - 10px);
-  height: calc(100% - 170px);
+  height: calc(100% - 160px - 10px);
   z-index: 0;
-  padding: 20px 0 0 10px;
+  padding: 10px 0 0 10px;
   overFlow-y: scroll;
   overFlow-x: scroll;
 }
 
 #tree_scroll {
-  width: 2400px;
+  width: 2300px;
   height: 700px;
 }
 
 .generation {
-  height: 70px;
-  margin-bottom: 30px;
+  height: 60px;
+  margin-bottom: 40px;
 }
 
 .fake {
@@ -136,12 +147,13 @@
 }
 
 .person {
-  background-color: rgb(255, 205, 119);
+  background-color: #edbe6b;
+  color: #302b1f;
+  font-family: 'Inter';
   line-height: 1;
   text-align: center;
   height: 60px;
   width: 60px;
-  /* border: solid 1px; */
   border-radius: 7.5px;
   padding: 2.5px 0 2.5px 0;
   display: inline-block;
@@ -160,24 +172,22 @@
 
 .died {
   opacity: 0.5;
-  /* background-color: rgb(148, 148, 148); */
 }
 
 .told {
-  background-color: yellow;
+  background-color: #8d2d0b;
+  color: #f9dfb7;
   opacity: 1;
 }
 
 .name {
   font-size: 8px;
-  font-family: 'Calibri';
   height: 15px;
   margin-bottom: 5px;
 }
 
 .years {
   font-size: 7px;
-  font-family: 'Arial';
   margin-top: 2.5px;
 }
 
@@ -188,7 +198,6 @@
 }
 
 .image {
-  background-color: black;
   height: 30px;
   width: 25px;
 }
@@ -207,13 +216,12 @@
   margin: 0 auto;
   height: 15px;
   width: 20px;
-  background-color: red;
 }
 
 .age {
+  font-size: 9px;
   display: flex;
   height: 15px;
-  font-family: 'Arial';
 }
 
 .age_number {

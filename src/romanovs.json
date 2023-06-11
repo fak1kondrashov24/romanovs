@@ -2,7 +2,8 @@
     [    
      {
       "id": 0,
-      "name": "Патриарх Филарет",
+      "name": "Патриарх<br>Филарет",
+      "image": "0",
       "year_born": "?",
       "year_show": 1553,
       "year_died": 1633,
@@ -11,7 +12,8 @@
      },
      {
       "id": 1,
-      "name": "Ксения Шестова",
+      "name": "Ксения<br>Шестова",
+      "image": "01",
       "creation": "right",
       "creator": 0,
       "year_born": "?",
@@ -24,10 +26,11 @@
     [
      {
       "id": 3,
-      "name": "Мария Долгорукова",
+      "name": "Мария<br>Долгорукова",
+      "image": "unknown",
       "creation": "left",
       "creator": 2,
-      "year_born": 1624,
+      "year_born": "?",
       "year_show": 1624,
       "year_died": 1625,
       "age_died": "?",
@@ -35,7 +38,8 @@
      },
      {
       "id": 2,
-      "name": "Михаил Фёдорович",
+      "name": "Михаил<br>Фёдорович",
+      "image": "02",
       "creation": "child",
       "creator": 1,
       "year_born": 1596,
@@ -49,10 +53,11 @@
      },
      {
       "id": 4,
-      "name": "Евдокия Стрешнева",
+      "name": "Евдокия<br>Стрешнева",
+      "image": "04",
       "creation": "right",
       "creator": 2,
-      "year_born": 1626,
+      "year_born": "?",
       "year_show": 1626,
       "year_died": 1645,
       "age_died": "?",
@@ -62,7 +67,8 @@
     [
      {
       "id": 5,
-      "name": "Ирина Михайловна",
+      "name": "Ирина<br>Михайловна",
+      "image": "unknown",
       "creation": "child",
       "creator": 4,
       "year_born": 1627,
@@ -73,7 +79,8 @@
      },
      {
       "id": 6,
-      "name": "Пелагея Михайловна",
+      "name": "Пелагея<br>Михайловна",
+      "image": "unknown",
       "creation": "child",
       "creator": 4,
       "year_born": 1628,
@@ -84,7 +91,8 @@
      },
      {
       "id": 7,
-      "name": "Мария Милославская",
+      "name": "Мария<br>Милославская",
+      "image": "07",
       "creation": "left",
       "creator": 8,
       "year_born": 1626,
@@ -95,7 +103,8 @@
      },
      {
       "id": 8,
-      "name": "Алексей Михайлович",
+      "name": "Алексей<br>Михайлович",
+      "image": "08",
       "creation": "child",
       "creator": 4,
       "year_born": 1629,
@@ -109,7 +118,8 @@
      },
      {
       "id": 9,
-      "name": "Наталия Нарышкина",
+      "name": "Наталия<br>Нарышкина",
+      "image": "09",
       "creation": "right",
       "creator": 8,
       "year_born": 1651,
@@ -120,7 +130,8 @@
      },
      {
       "id": 10,
-      "name": "Анна Михайловна",
+      "name": "Анна<br>Михайловна",
+      "image": "unknown",
       "creation": "child",
       "creator": 4,
       "year_born": 1630,
@@ -131,7 +142,8 @@
      },
      {
       "id": 11,
-      "name": "Марфа Михайловна",
+      "name": "Марфа<br>Михайловна",
+      "image": "unknown",
       "creation": "child",
       "creator": 4,
       "year_born": 1631,
@@ -142,7 +154,8 @@
      },
      {
       "id": 12,
-      "name": "Иоанн Михайлович",
+      "name": "Иоанн<br>Михайлович",
+      "image": "unknown",
       "creation": "child",
       "creator": 4,
       "year_born": 1633,
@@ -153,7 +166,8 @@
      },
      {
       "id": 13,
-      "name": "Софья Михайловна",
+      "name": "Софья<br>Михайловна",
+      "image": "unknown",
       "creation": "child",
       "creator": 4,
       "year_born": 1634,
@@ -164,7 +178,8 @@
      },
      {
       "id": 14,
-      "name": "Татьяна Михайловна",
+      "name": "Татьяна<br>Михайловна",
+      "image": "unknown",
       "creation": "child",
       "creator": 4,
       "year_born": 1636,
@@ -175,7 +190,8 @@
      },
      {
       "id": 15,
-      "name": "Евдокия Михайловна",
+      "name": "Евдокия<br>Михайловна",
+      "image": "unknown",
       "creation": "child",
       "creator": 4,
       "year_born": 1637,
@@ -186,7 +202,8 @@
      },
      {
       "id": 16,
-      "name": "Василий Михайлович",
+      "name": "Василий<br>Михайлович",
+      "image": "unknown",
       "creation": "child",
       "creator": 4,
       "year_born": 1639,
@@ -199,7 +216,8 @@
     [
      {
       "id": 17,
-      "name": "Дмитрий Алексеевич",
+      "name": "Дмитрий<br>Алексеевич",
+      "image": "unknown",
       "creation": "child",
       "creator": 7,
       "year_born": 1648,
@@ -210,7 +228,8 @@
      },
      {
       "id": 18,
-      "name": "Евдокия Алексеевна",
+      "name": "Евдокия<br>Алексеевна",
+      "image": "unknown",
       "creation": "child",
       "creator": 7,
       "year_born": 1650,
@@ -221,7 +240,8 @@
      },
      {
       "id": 19,
-      "name": "Мафра Алексеевна",
+      "name": "Мафра<br>Алексеевна",
+      "image": "unknown",
       "creation": "child",
       "creator": 7,
       "year_born": 1652,
@@ -232,7 +252,8 @@
      },
      {
       "id": 20,
-      "name": "Алексей Алексеевич",
+      "name": "Алексей<br>Алексеевич",
+      "image": "20",
       "creation": "child",
       "creator": 7,
       "year_born": 1654,
@@ -243,7 +264,8 @@
      },
      {
       "id": 21,
-      "name": "Анна Алексеевна",
+      "name": "Анна<br>Алексеевна",
+      "image": "unknown",
       "creation": "child",
       "creator": 7,
       "year_born": 1655,
@@ -254,7 +276,8 @@
      },
      {
       "id": 22,
-      "name": "Софья Алексеевна",
+      "name": "Софья<br>Алексеевна",
+      "image": "22",
       "creation": "child",
       "creator": 7,
       "year_born": 1657,
@@ -268,7 +291,8 @@
      },
      {
       "id": 23,
-      "name": "Екатерина Алексеевна",
+      "name": "Екатерина<br>Алексеевна",
+      "image": "unknown",
       "creation": "child",
       "creator": 7,
       "year_born": 1658,
@@ -279,7 +303,8 @@
      },
      {
       "id": 25,
-      "name": "Мария Алексеевна",
+      "name": "Мария<br>Алексеевна",
+      "image": "unknown",
       "creation": "child",
       "creator": 7,
       "year_born": 1660,
@@ -290,7 +315,8 @@
      },
      {
       "id": 26,
-      "name": "Агафья Грушецкая",
+      "name": "Агафья<br>Грушецкая",
+      "image": "unknown",
       "creation": "left",
       "creator": 24,
       "year_born": "?",
@@ -301,7 +327,8 @@
      },
      {
       "id": 24,
-      "name": "Фёдор Алексеевич",
+      "name": "Фёдор<br>Алексеевич",
+      "image": "24",
       "creation": "child",
       "creator": 7,
       "year_born": 1661,
@@ -315,7 +342,8 @@
      },
      {
       "id": 27,
-      "name": "Марфа Апраксина",
+      "name": "Марфа<br>Апраксина",
+      "image": "27",
       "creation": "right",
       "creator": 24,
       "year_born": 1664,
@@ -326,7 +354,8 @@
      },
      {
       "id": 28,
-      "name": "Феодосия Алексеевна",
+      "name": "Феодосия<br>Алексеевна",
+      "image": "unknown",
       "creation": "child",
       "creator": 7,
       "year_born": 1662,
@@ -337,7 +366,8 @@
      },
      {
       "id": 29,
-      "name": "Симеон Алексеевич",
+      "name": "Симеон<br>Алексеевич",
+      "image": "unknown",
       "creation": "child",
       "creator": 7,
       "year_born": 1665,
@@ -348,8 +378,9 @@
      },
      {
       "id": 31,
-      "name": "Прасковья Салтыкова",
-      "creation": "right",
+      "name": "Прасковья<br>Салтыкова",
+      "image": "31",
+      "creation": "left",
       "creator": 30,
       "year_born": 1664,
       "year_show": 1684,
@@ -359,7 +390,8 @@
      },
      {
       "id": 30,
-      "name": "Иоанн V Алексеевич",
+      "name": "Иоанн V<br>Алексеевич",
+      "image": "30",
       "creation": "child",
       "creator": 7,
       "year_born": 1666,
@@ -373,7 +405,8 @@
      },
      {
       "id": 32,
-      "name": "Евдокия Алексеевна",
+      "name": "Евдокия<br>Алексеевна",
+      "image": "unknown",
       "creation": "child",
       "creator": 7,
       "year_born": 1669,
@@ -384,7 +417,8 @@
      },
      {
       "id": 36,
-      "name": "Евдокия Лопухина",
+      "name": "Евдокия<br>Лопухина",
+      "image": "36",
       "creation": "left",
       "creator": 33,
       "year_born": 1669,
@@ -395,7 +429,8 @@
      },
      {
       "id": 33,
-      "name": "Пётр I Алексеевич",
+      "name": "Пётр I<br>Алексеевич",
+      "image": "33",
       "creation": "child",
       "creator": 9,
       "year_born": 1672,
@@ -409,7 +444,8 @@
      },
      {
       "id": 35,
-      "name": "Екатерина I Алексеевна",
+      "name": "Екатерина I<br>Алексеевна",
+      "image": "35",
       "creation": "right",
       "creator": 33,
       "year_born": 1684,
@@ -423,7 +459,8 @@
      },
      {
       "id": 34,
-      "name": "Наталья Алексеевна",
+      "name": "Наталья<br>Алексеевна",
+      "image": "unknown",
       "creation": "child",
       "creator": 9,
       "year_born": 1673,
@@ -434,7 +471,8 @@
      },
      {
       "id": 37,
-      "name": "Феодора Алексеевна",
+      "name": "Феодора<br>Алексеевна",
+      "image": "unknown",
       "creation": "child",
       "creator": 9,
       "year_born": 1674,
@@ -447,7 +485,8 @@
     [
      {
       "id": 38,
-      "name": "Илья Фёдорович",
+      "name": "Илья<br>Фёдорович",
+      "image": "unknown",
       "creation": "child",
       "creator": 26,
       "year_born": 1681,
@@ -458,7 +497,8 @@
      },
      {
       "id": 39,
-      "name": "Мария Иоанновна",
+      "name": "Мария<br>Иоанновна",
+      "image": "unknown",
       "creation": "child",
       "creator": 31,
       "year_born": 1689,
@@ -469,7 +509,8 @@
      },
      {
       "id": 40,
-      "name": "Феодосия Иоанновна",
+      "name": "Феодосия<br>Иоанновна",
+      "image": "unknown",
       "creation": "child",
       "creator": 31,
       "year_born": 1690,
@@ -480,7 +521,8 @@
      },
      {
       "id": 43,
-      "name": "Карл-Леопольд",
+      "name": "Карл-<br>Леопольд",
+      "image": "43",
       "creation": "right",
       "creator": 41,
       "year_born": 1678,
@@ -491,7 +533,8 @@
      },
      {
       "id": 41,
-      "name": "Екатерина Иоанновна",
+      "name": "Екатерина<br>Иоанновна",
+      "image": "41",
       "creation": "child",
       "creator": 31,
       "year_born": 1691,
@@ -502,7 +545,8 @@
      },
      {
       "id": 44,
-      "name": "Фридрих-Вильгельм",
+      "name": "Фридрих-<br>Вильгельм",
+      "image": "44",
       "creation": "right",
       "creator": 43,
       "year_born": 1692,
@@ -513,7 +557,8 @@
      },
      {
       "id": 42,
-      "name": "Анна Иоанновна",
+      "name": "Анна<br>Иоанновна",
+      "image": "42",
       "creation": "child",
       "creator": 31,
       "year_born": 1693,
@@ -527,7 +572,8 @@
      },
      {
       "id": 46,
-      "name": "Иван Дмитриев-Мамонов",
+      "name": "И. Дмитриев-<br>Мамонов",
+      "image": "unknown",
       "creation": "right",
       "creator": 45,
       "year_born": 1680,
@@ -538,7 +584,8 @@
      },
      {
       "id": 45,
-      "name": "Прасковья Иоанновна",
+      "name": "Прасковья<br>Иоанновна",
+      "image": "45",
       "creation": "child",
       "creator": 31,
       "year_born": 1694,
@@ -549,7 +596,8 @@
      },
      {
       "id": 48,
-      "name": "Шарлотта-Кристина-София",
+      "name": "Шарлотта-<br>Кристина",
+      "image": "48",
       "creation": "left",
       "creator": 47,
       "year_born": 1694,
@@ -560,7 +608,8 @@
      },
      {
       "id": 47,
-      "name": "Алексей Петрович",
+      "name": "Алексей<br>Петрович",
+      "image": "47",
       "creation": "child",
       "creator": 36,
       "year_born": 1690,
@@ -571,7 +620,8 @@
      },
      {
       "id": 49,
-      "name": "Александр Петрович",
+      "name": "Александр<br>Петрович",
+      "image": "unknown",
       "creation": "child",
       "creator": 36,
       "year_born": 1691,
@@ -582,7 +632,8 @@
      },
      {
       "id": 50,
-      "name": "Пётр Петрович",
+      "name": "Пётр<br>Петрович",
+      "image": "unknown",
       "creation": "child",
       "creator": 35,
       "year_born": 1704,
@@ -593,7 +644,8 @@
      },
      {
       "id": 51,
-      "name": "Павел Петрович",
+      "name": "Павел<br>Петрович",
+      "image": "unknown",
       "creation": "child",
       "creator": 35,
       "year_born": 1705,
@@ -604,7 +656,8 @@
      },
      {
       "id": 52,
-      "name": "Екатерина Петровна",
+      "name": "Екатерина<br>Петровна",
+      "image": "unknown",
       "creation": "child",
       "creator": 35,
       "year_born": 1706,
@@ -615,7 +668,8 @@
      },
      {
       "id": 53,
-      "name": "Анна Петровна",
+      "name": "Анна<br>Петровна",
+      "image": "53",
       "creation": "child",
       "creator": 35,
       "year_born": 1708,
@@ -626,7 +680,8 @@
      },
      {
       "id": 54,
-      "name": "Карл-Фридрих",
+      "name": "Карл-<br>Фридрих",
+      "image": "54",
       "creation": "right",
       "creator": 53,
       "year_born": 1700,
@@ -637,7 +692,8 @@
      },
      {
       "id": 55,
-      "name": "Елизавета Петровна",
+      "name": "Елизавета<br>Петровна",
+      "image": "55",
       "creation": "child",
       "creator": 35,
       "year_born": 1709,
@@ -651,7 +707,8 @@
      },
      {
       "id": 56,
-      "name": "Наталья Петровна",
+      "name": "Наталья<br>Петровна",
+      "image": "unknown",
       "creation": "child",
       "creator": 35,
       "year_born": 1713,
@@ -662,7 +719,8 @@
      },
      {
       "id": 57,
-      "name": "Маргарита Петровна",
+      "name": "Маргарита<br>Петровна",
+      "image": "unknown",
       "creation": "child",
       "creator": 35,
       "year_born": 1714,
@@ -673,7 +731,8 @@
      },
      {
       "id": 58,
-      "name": "Пётр Петрович",
+      "name": "Пётр<br>Петрович",
+      "image": "58",
       "creation": "child",
       "creator": 35,
       "year_born": 1715,
@@ -684,7 +743,8 @@
      },
      {
       "id": 59,
-      "name": "Павел Петрович",
+      "name": "Павел<br>Петрович",
+      "image": "unknown",
       "creation": "child",
       "creator": 35,
       "year_born": 1717,
@@ -695,7 +755,8 @@
      },
      {
       "id": 60,
-      "name": "Наталья Петровна",
+      "name": "Наталья<br>Петровна",
+      "image": "60",
       "creation": "child",
       "creator": 35,
       "year_born": 1718,
@@ -708,7 +769,8 @@
     [
      {
       "id": 61,
-      "name": "Анна Леопольдовна",
+      "name": "Анна<br>Леопольдовна",
+      "image": "61",
       "creation": "child",
       "creator": 43,
       "year_born": 1718,
@@ -722,7 +784,8 @@
      },
      {
       "id": 62,
-      "name": "Антон-Ульрих",
+      "name": "Антон-<br>Ульрих",
+      "image": "62",
       "creation": "right",
       "creator": 42,
       "year_born": 1714,
@@ -733,7 +796,8 @@
      },
      {
       "id": 63,
-      "name": "Наталья Алексеевна",
+      "name": "Наталья<br>Алексеевна",
+      "image": "63",
       "creation": "child",
       "creator": 48,
       "year_born": 1714,
@@ -744,13 +808,14 @@
      },
      {
       "id": 64,
-      "name": "Пётр II Алексеевич",
+      "name": "Пётр II<br>Алексеевич",
+      "image": "64",
       "creation": "child",
       "creator": 48,
       "year_born": 1715,
       "year_show": 1715,
       "year_died": 1730,
-      "age_died": 0,
+      "age_died": 14,
       "year_start": 1727,
       "year_finish": 1730,
       "ruler": true,
@@ -758,13 +823,14 @@
      },
      {
       "id": 65,
-      "name": "Пётр III Фёдорович",
+      "name": "Пётр III<br>Фёдорович",
+      "image": "65",
       "creation": "child",
       "creator": 54,
       "year_born": 1728,
       "year_show": 1728,
       "year_died": 1762,
-      "age_died": 0,
+      "age_died": 38,
       "year_start": 1762,
       "year_finish": 1762,
       "ruler": true,
@@ -772,13 +838,14 @@
      },
      {
       "id": 66,
-      "name": "Екатерина II Алексеевна",
+      "name": "Екатерина II<br>Алексеевна",
+      "image": "66",
       "creation": "left",
       "creator": 65,
       "year_born": 1729,
       "year_show": 1745,
       "year_died": 1796,
-      "age_died": 0,
+      "age_died": 65,
       "year_start": 1762,
       "year_finish": 1796,
       "ruler": true,
@@ -788,7 +855,8 @@
     [
      {
       "id": 67,
-      "name": "Иоанн IV Антонович",
+      "name": "Иоанн VI<br>Антонович",
+      "image": "67",
       "creation": "child",
       "creator": 62,
       "year_born": 1740,
@@ -802,7 +870,8 @@
      },
      {
       "id": 68,
-      "name": "Екатерина Антоновна",
+      "name": "Екатерина<br>Антоновна",
+      "image": "unknown",
       "creation": "child",
       "creator": 62,
       "year_born": 1741,
@@ -813,7 +882,8 @@
      },
      {
       "id": 69,
-      "name": "Елизавета Антоновна",
+      "name": "Елизавета<br>Антоновна",
+      "image": "unknown",
       "creation": "child",
       "creator": 62,
       "year_born": 1743,
@@ -824,7 +894,8 @@
      },
      {
       "id": 70,
-      "name": "Пётр Антонович",
+      "name": "Пётр<br>Антонович",
+      "image": "unknown",
       "creation": "child",
       "creator": 62,
       "year_born": 1745,
@@ -835,7 +906,8 @@
      },
      {
       "id": 71,
-      "name": "Алексей Антонович",
+      "name": "Алексей<br>Антонович",
+      "image": "unknown",
       "creation": "child",
       "creator": 62,
       "year_born": 1746,
@@ -846,7 +918,8 @@
      },
      {
       "id": 73,
-      "name": "Павел I Петрович",
+      "name": "Павел I<br>Петрович",
+      "image": "73",
       "creation": "child",
       "creator": 66,
       "year_born": 1754,
@@ -860,7 +933,8 @@
      },
      {
       "id": 74,
-      "name": "Наталия Алексеевна",
+      "name": "Наталия<br>Алексеевна",
+      "image": "74",
       "creation": "left",
       "creator": 73,
       "year_born": 1755,
@@ -871,7 +945,8 @@
      },
      {
       "id": 75,
-      "name": "Мария Фёдоровна",
+      "name": "Мария<br>Фёдоровна",
+      "image": "75",
       "creation": "right",
       "creator": 73,
       "year_born": 1759,
@@ -883,8 +958,9 @@
     ],
     [
      {
-      "id": 76,
-      "name": "Александр I Павлович",
+      "id": 77,
+      "name": "Александр I<br>Павлович",
+      "image": "77",
       "creation": "child",
       "creator": 75,
       "year_born": 1777,
@@ -897,8 +973,9 @@
       "position": 1275
      },
      {
-      "id": 77,
-      "name": "Елизавета Алексеевна",
+      "id": 76,
+      "name": "Елизавета<br>Алексеевна",
+      "image": "76",
       "creation": "left",
       "creator": 76,
       "year_born": 1779,
@@ -909,7 +986,8 @@
      },
      {
       "id": 78,
-      "name": "Константин Павлович",
+      "name": "Константин<br>Павлович",
+      "image": "78",
       "creation": "child",
       "creator": 75,
       "year_born": 1779,
@@ -920,7 +998,8 @@
      },
      {
       "id": 79,
-      "name": "Анна Фёдоровна",
+      "name": "Анна<br>Фёдоровна",
+      "image": "79",
       "creation": "left",
       "creator": 78,
       "year_born": 1781,
@@ -931,7 +1010,8 @@
      },
      {
       "id": 80,
-      "name": "Александра Павловна",
+      "name": "Александра<br>Павловна",
+      "image": "80",
       "creation": "child",
       "creator": 75,
       "year_born": 1783,
@@ -942,7 +1022,8 @@
      },
      {
       "id": 81,
-      "name": "Иосиф-Антон",
+      "name": "Иосиф-<br>Антон",
+      "image": "81",
       "creation": "left",
       "creator": 80,
       "year_born": 1776,
@@ -953,7 +1034,8 @@
      },
      {
       "id": 82,
-      "name": "Елена Павловна",
+      "name": "Елена<br>Павловна",
+      "image": "82",
       "creation": "child",
       "creator": 75,
       "year_born": 1784,
@@ -964,7 +1046,8 @@
      },
      {
       "id": 83,
-      "name": "Фридрих-Людвиг",
+      "name": "Фридрих-<br>Людвиг",
+      "image": "83",
       "creation": "left",
       "creator": 82,
       "year_born": 1778,
@@ -975,7 +1058,8 @@
      },
      {
       "id": 84,
-      "name": "Мария Павловна",
+      "name": "Мария<br>Павловна",
+      "image": "84",
       "creation": "child",
       "creator": 75,
       "year_born": 1786,
@@ -986,7 +1070,8 @@
      },
      {
       "id": 85,
-      "name": "Екатерина Павловна",
+      "name": "Екатерина<br>Павловна",
+      "image": "85",
       "creation": "child",
       "creator": 75,
       "year_born": 1788,
@@ -997,7 +1082,8 @@
      },
      {
       "id": 86,
-      "name": "Ольга Павловна",
+      "name": "Ольга<br>Павловна",
+      "image": "86",
       "creation": "child",
       "creator": 75,
       "year_born": 1792,
@@ -1008,7 +1094,8 @@
      },
      {
       "id": 87,
-      "name": "Анна Павловна",
+      "name": "Анна<br>Павловна",
+      "image": "87",
       "creation": "child",
       "creator": 75,
       "year_born": 1795,
@@ -1019,13 +1106,14 @@
      },
      {
       "id": 88,
-      "name": "Николай I Павлович",
+      "name": "Николай I<br>Павлович",
+      "image": "88",
       "creation": "child",
       "creator": 75,
       "year_born": 1796,
       "year_show": 1796,
       "year_died": 1855,
-      "age_died": 0,
+      "age_died": 58,
       "year_start": 1825,
       "year_finish": 1855,
       "ruler": true,
@@ -1033,7 +1121,8 @@
      },
      {
       "id": 89,
-      "name": "Михаил Павлович",
+      "name": "Михаил<br>Павлович",
+      "image": "89",
       "creation": "child",
       "creator": 75,
       "year_born": 1798,
