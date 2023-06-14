@@ -63,7 +63,7 @@ function Year({ year, setYear }) {
 
   return (
     <div id="year_choose">
-      <input type="range" id="year_range" onChange={yearChangeByRange} value={year} min="1613" max="1801" step="1"></input>
+      <input type="range" id="year_range" onChange={yearChangeByRange} value={year} min="1612" max="1801" step="1"></input>
       {year === 0 ? yearNull() : <YearNotNull year={year} setYear={setYear} />}
     </div>
   )
@@ -76,16 +76,16 @@ function YearNotNull ({year, setYear}) {
   }
 
   const yearUp = () => {
-    if (year === 1801) {
-      alert("Родословная представлена только с 1613 по 1801 год")
+    if (parseInt(year) === 1801) {
+      alert("Родословная представлена только с 1612 по 1801 год")
     } else {
-      return( yearChanged(parseInt(year) + 1) )
+      yearChanged(parseInt(year) + 1)
     }
   }
 
   const yearDown = () => {
-    if (year === 1613) {
-      alert("Родословная представлена только с 1613 по 1801 год")
+    if (parseInt(year) === 1612) {
+      alert("Родословная представлена только с 1612 по 1801 год")
     } else {
       yearChanged(parseInt(year) - 1)
     }
